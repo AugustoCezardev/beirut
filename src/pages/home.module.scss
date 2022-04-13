@@ -1,0 +1,43 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+}
+
+.centerBox {
+    position: relative;
+    padding: 1.5rem;
+    background-color: #3b3b4280;
+    border-radius: 6px;
+    min-height: 400px;
+    min-width: 400px;
+    max-width: 450px;
+    line-height: 2rem;
+    border: 1px solid var(--gray-500);
+    text-align: justify;
+
+    color: var(--yellow-500);
+    letter-spacing: 0.7px;
+
+    p {
+        margin-bottom: 1rem;
+    }
+}
+
+.icons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+
+    svg {
+        font-size: 1.5rem;
+        margin: 1rem;
+        cursor: pointer;
+    }
+}
